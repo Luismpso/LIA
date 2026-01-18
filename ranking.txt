@@ -1,0 +1,2 @@
+ranking('Osama bin Laden', 1, 1000000, 'geral', 'hardcore', '11/09/2001').
+ranking('Bruno de Carvalho', 2, 0, 'geral', 'normal', '12/11/2018').
