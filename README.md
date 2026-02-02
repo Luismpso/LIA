@@ -85,7 +85,7 @@ DESATIVE os interruptores para python.exe e python3.exe (App Installer).
 
 - `chamada/`: Scripts Python que fazem a ponte entre o Prolog e o Ollama.
 
-- `relatorio.pdf`: Documentação técnica e análise do desenvolvimento.
+- `report.pdf`: Documentação técnica e análise do desenvolvimento.
 
 ## 👥 Autores
 
