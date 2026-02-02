@@ -75,21 +75,26 @@ DESATIVE os interruptores para python.exe e python3.exe (App Installer).
 
 ## 📂 Estrutura do Código
 
-- milionario.pl: Ponto de entrada e loop principal do jogo.
+- `milionario.pl`: Ponto de entrada e loop principal do jogo.
 
-- perguntas.pl: Base de conhecimento (Factos) com as perguntas e níveis de dificuldade.
+- `perguntas.pl`: Base de conhecimento (Factos) com as perguntas e níveis de dificuldade.
 
-- regras.pl: Lógica de validação de respostas e progressão.
+- `regras.pl`: Lógica de validação de respostas e progressão.
 
-- audio.pl & animacao.pl: Módulos de interface e chamadas de sistema para multimédia.
+- `audio.pl` & `animacao.pl`: Módulos de interface e chamadas de sistema para multimédia.
 
-- chamada/: Scripts Python que fazem a ponte entre o Prolog e o Ollama.
+- `chamada/`: Scripts Python que fazem a ponte entre o Prolog e o Ollama.
 
-- relatorio.pdf: Documentação técnica e análise do desenvolvimento.
+- `relatorio.pdf`: Documentação técnica e análise do desenvolvimento.
 
-## 📝 Notas Importantes
-- **Inputs:** Restrinja a interação às opções apresentadas (A, B, C, D, H, S) para evitar erros de fluxo.
+## 👥 Autores
 
-- **Python no Windows:** Se a ajuda telefónica falhar, verifique nas definições do Windows ("Manage App Execution Aliases") se os aliases do Python estão DESATIVADOS. O sistema deve usar o executável real do Python e não o atalho da Windows Store.
+* **[Pedro Reis]** - [PG59908@alunos.uminho.pt]
+* **[Luís Silva]** - [PG60390@alunos.uminho.pt]
+* **[Guilherme Pinto]** - [PG60225@alunos.uminho.pt]
+* **[João Azevedo]** - [PG61693@alunos.uminho.pt]
+* **[Diogo Azevedo]** - [PG61217@alunos.uminho.pt]
 
-- **Diretória:** O ficheiro milionario.pl deve ser executado a partir da raiz da pasta do projeto (junto às pastas audio, image, etc.).
+## 📜 Licença
+
+Este trabalho é de cariz estritamente académico. Universidade do Minho, Escola de Engenharia, Departamento de Informática.
